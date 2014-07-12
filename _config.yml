@@ -1,4 +1,16 @@
 # Dependencies
 markdown:         kramdown
 
+# Setup
+author:
+  name:           "Openstax"
+  url:            http://cnx.org
+
+
+title:            "Openstax Statistics"
+
+# Custom vars
+version:          16.2
+origin:           http://cnx.org/contents/30189442-6998-4686-ac05-ed152b91b9de@16.2
+
 bookviewer:       http://philschatz.com/book-viewer
