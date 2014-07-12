@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE document PUBLIC "-//CNX//DTD CNXML 0.5 plus MathML//EN" "http://cnx.rice.edu/technology/cnxml/schema/dtd/0.5/cnxml_mathml.dtd">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml/0.4" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" id="new">
+  <name>Central Limit Theorem: Using the C.L.T. (modified R. Bloom)</name>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml/0.4">
+  <md:version>1.4</md:version>
+  <md:created>2008/11/25 12:48:58 US/Central</md:created>
+  <md:revised>2008/12/16 12:32:27.240 US/Central</md:revised>
+  <md:authorlist>
+      <md:author id="robloom">
+      <md:firstname>Roberta</md:firstname>
+      
+      <md:surname>Bloom</md:surname>
+      <md:email>bloomroberta@deanza.edu</md:email>
+    </md:author>
+  </md:authorlist>
+
+  <md:maintainerlist>
+    <md:maintainer id="robloom">
+      <md:firstname>Roberta</md:firstname>
+      
+      <md:surname>Bloom</md:surname>
+      <md:email>bloomroberta@deanza.edu</md:email>
+    </md:maintainer>
+  </md:maintainerlist>
+  
+  <md:keywordlist>
+    <md:keyword>elementary</md:keyword>
+    <md:keyword>statistics</md:keyword>
+  </md:keywordlist>
+
+  <md:abstract>This module has examples illustrating use of the Central Limit Theorem is used.  This revision of the original module in the collection Collaborative Statistics by S. Dean and Dr. B. Illowsky includes examples only for the CLT for means, and omits their material for the CLT for sums. The second example in this section has been changed to correct errors in the earlier versions of this module.</md:abstract>
+</metadata>
+  <content>
+    <para id="delete_me">It is important to understand when to use the <term src="#centlimit">CLT</term>. Use the CLT for means or averages when you are  asked to find the probability for a sample average or mean, or when working with percentiles for sample averages.
+(If you
+are being asked to find the probability or percentile of a sum or total, use the CLT for sums.) </para><note>If you are being asked to find
+the probability of an <emphasis>individual</emphasis> value, do <emphasis>not</emphasis> use the CLT. <emphasis>Use the
+distribution of its random variable.</emphasis></note><section id="element-733"><name>Law of Large Numbers</name>
+<para id="element-349">
+The Law of Large Numbers says that if you take samples of larger and larger size
+from any population, then the mean 
+<m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>x</m:ci>
+</m:apply>
+</m:math>
+
+of the sample gets closer and closer to <m:math><m:mi>μ</m:mi></m:math>.
+From the Central Limit Theorem, we know that as <m:math><m:mi>n</m:mi></m:math> gets larger and larger, the
+sample averages follow a normal distribution. The larger n gets, the smaller the
+standard deviation gets. (Remember that the standard deviation for <m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>X</m:ci>
+</m:apply>
+</m:math>
+
+is
+<m:math>
+<m:mfrac>
+<m:mi>σ</m:mi>
+<m:mrow>
+<m:msqrt>
+<m:mi>n</m:mi>
+</m:msqrt>
+</m:mrow>
+</m:mfrac>
+</m:math>
+.)
+This means that the sample mean <m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>x</m:ci>
+</m:apply>
+</m:math>
+must be close to the population mean <m:math><m:mi>μ</m:mi></m:math>. We
+can say that <m:math><m:mi>μ</m:mi></m:math> is the value that the sample averages approach as <m:math><m:mi>n</m:mi></m:math> gets larger. The
+Central Limit Theorem illustrates the Law of Large Numbers.
+</para><example id="element-482"><para id="element-361">A study involving stress is done on a college campus among the
+students. <emphasis>The stress scores follow a continuous uniform distribution</emphasis> with the lowest stress
+score equal to 1 and the highest equal to 5. Using a sample of 75 students, find:
+<list id="list-1" type="named-item"><?mark .?><item><name>a</name>The probability that the <emphasis>average stress score</emphasis> for the 75 students is less than 2.</item>
+<item><name>b</name>The 90th percentile for the <emphasis>average stress score</emphasis> for the 75 students.</item>
+
+</list>
+</para><para id="element-294">Let <m:math><m:mi>X</m:mi></m:math> = the stress score for one individual student</para><para id="element-494">The individual stress scores follow a continuous uniform
+distribution, <m:math><m:mi>X</m:mi></m:math> ~ <m:math><m:mi>U</m:mi><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>,</m:mo> <m:mn>5</m:mn><m:mo>)</m:mo></m:math> where <m:math><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:math> and <m:math><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:math> (See the chapter on <cnxn document="m16808">Continuous Random Variables</cnxn>).</para><para id="element-35"><m:math>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>X</m:mi>
+</m:msub>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi>a</m:mi>
+<m:mo>+</m:mo>
+<m:mi>b</m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn>2</m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn>1</m:mn>
+<m:mo>+</m:mo>
+<m:mn>5</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn>2</m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo>
+<m:mn>3</m:mn>
+</m:math></para><para id="element-200"><m:math>
+<m:msub>
+<m:mi>σ</m:mi>
+<m:mi>X</m:mi>
+</m:msub>
+<m:mo>=</m:mo>
+<m:msqrt>
+<m:mfrac>
+<m:mrow>
+<m:mo>(</m:mo>
+<m:mi>b</m:mi>
+<m:mo>-</m:mo>
+<m:mi>a</m:mi>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn>12</m:mn>
+</m:mrow>
+</m:mfrac>
+</m:msqrt>
+<m:mo>=</m:mo>
+<m:msqrt>
+<m:mfrac>
+<m:mrow>
+<m:mo>(</m:mo>
+<m:mn>5</m:mn>
+<m:mo>-</m:mo>
+<m:mn>1</m:mn>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn>12</m:mn>
+</m:mrow>
+</m:mfrac>
+</m:msqrt>
+<m:mo>=</m:mo>
+<m:mn>1.15</m:mn>
+</m:math></para><para id="element-840">Problems a and b ask you to find a probability or a percentile for an <term src="#average">average</term> or <term src="#mean">mean</term>.
+The sample size, <m:math><m:mi>n</m:mi></m:math>, is equal to 75.</para><para id="element-591">Let <m:math>
+		<m:apply>
+			<m:conjugate/>
+			<m:ci>X</m:ci>
+		</m:apply>
+	</m:math>
+
+= the average stress score for the 75
+students. </para><para id="element-963">For the average stress score, use the CLT which tells us that <m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>X</m:ci>
+</m:apply></m:math> ~
+<m:math>
+<m:mi>N</m:mi>
+<m:mo>(</m:mo>
+<m:mi>μ</m:mi>
+<m:mo>,</m:mo>
+<m:mfrac>
+<m:mi>σ</m:mi>
+<m:mrow>
+<m:msqrt>
+<m:mi>n</m:mi>
+</m:msqrt>
+</m:mrow>
+</m:mfrac>
+<m:mo>)</m:mo>
+<m:mspace width="25pt"/>
+</m:math></para><para id="element-257"><m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>X</m:ci>
+</m:apply></m:math> ~
+<m:math>
+<m:mi>N</m:mi>
+<m:mo>(</m:mo>
+<m:mn>3</m:mn>
+<m:mo>,</m:mo>
+<m:mfrac>
+<m:mn>1.15</m:mn>
+<m:mrow>
+<m:msqrt>
+<m:mn>75</m:mn>
+</m:msqrt>
+</m:mrow>
+</m:mfrac>
+<m:mo>)</m:mo>
+<m:mspace width="25pt"/>
+</m:math>
+where
+<m:math><m:mi>n = 75</m:mi></m:math>.</para><exercise id="element-197"><problem>
+  <para id="element-549">Find 
+<m:math>
+<m:reln><m:lt/>
+<m:mrow>
+<m:mi>P</m:mi>
+<m:mo>(</m:mo>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>X</m:ci>
+</m:apply>
+</m:mrow>
+<m:mrow>
+<m:mn>2</m:mn>
+<m:mo>)</m:mo>
+</m:mrow>
+</m:reln>
+</m:math>.
+<m:math>
+<m:mspace width="20pt"/>
+</m:math>
+Draw the graph.</para>
+</problem>
+
+<solution>
+  <para id="element-146"><m:math>
+<m:reln><m:lt/>
+<m:mrow>
+<m:mi>P</m:mi>
+<m:mo>(</m:mo>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>X</m:ci>
+</m:apply>
+</m:mrow>
+<m:mrow>
+<m:mn>2</m:mn>
+<m:mo>)</m:mo>
+</m:mrow>
+</m:reln>
+<m:mo>=</m:mo>
+<m:mn>0</m:mn>
+</m:math></para><para id="element-870">The probability that the
+average stress score is less
+than 2 is about 0.</para><para id="element-546"><media type="image/png" src="clt_useCLT1.png">
+<param name="alt" value="Normal distribution curve for the average with values of 2 and 3 on the x-axis. A vertical upward line extends from point 2 up to the curve. The probability area occurs from the beginning of the curve to point 2."/>
+	
+		<param name="print-width" value="3in"/>
+	</media>
+</para><para id="element-852"><code>normalcdf</code>
+<m:math>
+<m:mo>(</m:mo>
+<m:mn>1</m:mn>
+<m:mo>,</m:mo>
+<m:mn>2</m:mn>
+<m:mo>,</m:mo>
+<m:mn>3</m:mn>
+<m:mo>,</m:mo>
+<m:mfrac>
+<m:mn>1.15</m:mn>
+<m:mrow>
+<m:msqrt>
+<m:mn>75</m:mn>
+</m:msqrt>
+</m:mrow>
+</m:mfrac>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:mn>0</m:mn>
+</m:math></para>
+<note id="note-1" type="Reminder">The smallest stress score is 1. Therefore, the smallest
+average for 75 stress scores is 1.
+</note>
+</solution>
+</exercise><exercise id="element-523"><problem>
+  <para id="element-199">Find the 90th percentile for the sample average of 75 stress scores. Draw a graph.</para>
+</problem>
+
+<solution>
+  <para id="element-647">Let 
+<m:math>
+<m:mi>k</m:mi>
+</m:math>
+= the 90th precentile.
+Find <m:math><m:mi>k</m:mi></m:math>
+where 
+<m:math>
+<m:reln><m:lt/>
+<m:mrow>
+<m:mi>P</m:mi>
+<m:mo>(</m:mo>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>X</m:ci>
+</m:apply>
+</m:mrow>
+<m:mrow>
+<m:mi>k</m:mi>
+<m:mo>)</m:mo>
+</m:mrow>
+</m:reln>
+<m:mo>=</m:mo>
+<m:mn>0.90</m:mn>
+</m:math>.</para><para id="element-54"><m:math>
+<m:mi>k</m:mi>
+<m:mo>=</m:mo>
+<m:mn>3.17</m:mn>
+</m:math>
+ using 
+<code>invNorm</code>
+<m:math>
+<m:mo>(</m:mo>
+<m:mn>.90</m:mn>
+<m:mo>,</m:mo>
+<m:mn>3</m:mn>
+<m:mo>,</m:mo>
+<m:mfrac>
+<m:mn>1.15</m:mn>
+<m:mrow>
+<m:msqrt>
+<m:mn>75</m:mn>
+</m:msqrt>
+</m:mrow>
+</m:mfrac>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:mn>3.17</m:mn>
+</m:math></para><para id="element-50"><media type="image/png" src="clt_useCLT2.png">
+<param name="alt" value="Normal distribution curve graph with a vertical upward line at point k on the x-axis. The probability area under the curve before k is equal to 0.90. k is equal to the 90th percentile."/>
+                                <param name="width" value="300"/>
+                                <param name="print-width" value="3in"/>	
+</media>
+</para><para id="element-776">The 90th percentile for the sample average of 75 scores is about 3.17. This means that
+90% of all the averages of samples of 75 stress scores are at most 3.17 and 10% of the sample averages are at least
+3.17 .</para>
+</solution>
+</exercise>
+</example><example id="element-381"><para id="element-583">Suppose that a market research analyst for a cell phone company conducts a study of their customers who exceed the time allowance included on their basic cell phone contract; the analyst finds that for those people who exceed the time included in their basic contract, the <emphasis>excess time used</emphasis> follows an  
+<term src="#expdist">exponential distribution</term> with a mean of 22 minutes. 
+
+</para><para id="element-848">Consider a random sample of 80 customers who exceed the time allowance included in their basic cell phone contract.</para><para id="element-47">Let <m:math><m:mi>X</m:mi></m:math> = the excess time used by one INDIVIDUAL cell phone customer who exceeds his contracted time allowance. </para><para id="element-799"><m:math><m:mi>X</m:mi></m:math> ~ <m:math><m:mi>Exp</m:mi><m:mo>(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>22</m:mn></m:mrow></m:mfrac><m:mo>)</m:mo></m:math> From Chapter
+5, we know that <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mn>22</m:mn></m:math> and <m:math><m:mi>σ</m:mi><m:mo>=</m:mo><m:mn>22</m:mn></m:math>. </para><para id="element-385">Let <m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:mi>X</m:mi>
+</m:apply>
+</m:math>
+
+= the AVERAGE excess time used by a sample of <m:math> <m:mi>n </m:mi> <m:mo>= </m:mo> <m:mn>80 </m:mn></m:math> customers who exceed their contracted time allowance. </para><para id="element-43"><m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>X</m:ci>
+</m:apply></m:math> ~
+<m:math>
+<m:mi>N</m:mi>
+<m:mo>(</m:mo>
+<m:mn>22</m:mn>
+<m:mo>,</m:mo>
+<m:mfrac>
+<m:mn>22</m:mn>
+<m:mrow>
+<m:msqrt>
+<m:mn>80</m:mn>
+</m:msqrt>
+</m:mrow>
+</m:mfrac>
+<m:mo>)</m:mo>
+</m:math>
+ by the CLT for Sample Means or Averages</para><exercise id="element-255"><problem>
+  <list id="element-19" type="named-item"><name>Using the CLT to find Probability:</name><?mark .?>
+<item><name>a</name>Find the probability that the average excess time used by the 80 customers in the sample is longer than 20 minutes. This is asking us to find
+<m:math>
+		<m:reln><m:gt/>
+			<m:mrow>
+				<m:mi>P</m:mi>
+				<m:mo>(</m:mo>
+				<m:apply>
+					<m:conjugate/>
+					<m:ci>X</m:ci>
+				</m:apply>
+			</m:mrow>
+			<m:mrow>
+				<m:mn>20</m:mn>
+				<m:mo>)</m:mo>
+			</m:mrow>
+		</m:reln>
+		<m:mspace width="20pt"/>
+	</m:math>
+Draw the graph. </item>
+<item><name>b</name> Suppose that one customer who exceeds the time limit for his cell phone contract is randomly selected. Find the probability that this individual customer's excess time is longer than 20 minutes. This is asking us to find
+<m:math>
+<m:reln><m:gt/>
+<m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>X</m:mi></m:mrow>
+<m:mrow><m:mi>20</m:mi><m:mo>)</m:mo></m:mrow></m:reln>
+</m:math>   </item><item><name>c</name> Explain why the probabilities in (a) and (b) are different.</item>
+</list>
+</problem>
+
+<solution>
+  <para id="element-388"><name>Part a.</name>Find: <m:math>
+<m:reln><m:gt/>
+<m:mrow>
+<m:mi>P</m:mi>
+<m:mo>(</m:mo>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>X</m:ci>
+</m:apply>
+</m:mrow>
+<m:mrow>
+<m:mn>20</m:mn>
+<m:mo>)</m:mo>
+</m:mrow>
+</m:reln>
+</m:math>
+  </para><para id="element-897"><m:math>
+<m:reln><m:gt/>
+<m:mrow>
+<m:mi>P</m:mi>
+<m:mo>(</m:mo>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>X</m:ci>
+</m:apply>
+</m:mrow>
+<m:mrow>
+<m:mn>20</m:mn>
+<m:mo>)</m:mo>
+</m:mrow>
+</m:reln>
+<m:mo>=</m:mo>
+<m:mn>0.7919 </m:mn> 
+</m:math> using 
+  <code>normalcdf</code>
+<m:math>
+<m:mo>(</m:mo>
+<m:mn>20</m:mn>
+<m:mo>,</m:mo>
+<m:mi>1E99</m:mi>
+<m:mo>,</m:mo>
+<m:mn>22</m:mn>
+<m:mo>,</m:mo>
+<m:mfrac>
+<m:mn>22</m:mn>
+<m:mrow>
+<m:msqrt>
+<m:mn>80</m:mn>
+</m:msqrt>
+</m:mrow>
+</m:mfrac>
+<m:mo>)</m:mo>
+</m:math></para><para id="element-996">The probability is 0.7919 that the
+average excess time used is more
+than 20 minutes, for a sample of 80 customers who exceed their contracted time allowance.</para><para id="element-177"><media type="image/png" src="clt_useCLT5.png">
+<param name="alt" value="Normal distribution curve with values of 20 and 22 on the x-axis. Vertical upward line extends from point 20 to curve. The probability area begins from point 20 to the end of the curve."/>
+
+		<param name="print-width" value="3in"/>
+	</media>
+</para>
+<note id="note-5" type="Reminder"><m:math>
+		<m:mi>1E99</m:mi>
+		<m:mo>=</m:mo>
+		<m:msup>
+			<m:mn>10</m:mn>
+			<m:mn>99</m:mn>
+		</m:msup>
+		<m:mtext> and</m:mtext>
+		<m:mi>-1E99</m:mi>
+		<m:mo>=</m:mo>
+		<m:mo>-</m:mo>
+		<m:msup>
+			<m:mn>10</m:mn>
+			<m:mn>99</m:mn>
+		</m:msup>
+	</m:math>.
+Press the <code>EE</code> key for E. Or just use 10^99 instead of 1E99.</note><para id="element-260"><name>Part b.</name>Find P(X&gt;20) .  Remember to use the exponential distribution for an <emphasis>individual: X~Exp(1/22)</emphasis>.
+ </para><para id="element-204">P(X&gt;20) = e^(–(1/22)*20) or e^(–.04545*20) = 0.4029 </para><list id="element-586" type="named-item"><name>Part c. Explain why the probabilities in (a) and (b) are different.</name><?mark?><item><m:math>
+<m:reln><m:gt/>
+<m:mrow>
+<m:mi>P</m:mi>
+<m:mo>(</m:mo>
+  <m:mi>X</m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn>20</m:mn>
+<m:mo>)</m:mo>
+</m:mrow>
+</m:reln>
+<m:mo>=</m:mo>
+<m:mn>0.4029</m:mn>
+</m:math>   but <m:math>
+<m:reln><m:gt/>
+<m:mrow>
+<m:mi>P</m:mi>
+<m:mo>(</m:mo>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>X</m:ci>
+</m:apply>
+</m:mrow>
+<m:mrow>
+<m:mn>20</m:mn>
+<m:mo>)</m:mo>
+</m:mrow>
+</m:reln>
+<m:mo>=</m:mo>
+<m:mn>0.7919</m:mn>
+</m:math> </item> 
+<item>The probabilities are not equal because we use different distributions to calculate the probability for individuals and for averages.</item>
+<item>When asked to find the probability of an individual value, use the stated
+distribution of its random variable; do not use the CLT. Use the CLT with the normal distribution when you are being asked to find the probability for an average.</item></list>
+</solution>
+</exercise><exercise id="element-855"><problem>
+  <para id="element-806"><name>Using the CLT to find Percentiles:</name>Find the 95th percentile for the <emphasis>sample average excess time</emphasis> for samples of 80 customers who exceed their basic contract time allowances. Draw a graph.
+  </para>
+</problem>
+
+<solution>
+  <para id="element-575">Let <m:math><m:mi>k</m:mi></m:math> = the 95th
+percentile. Find <m:math><m:mi>k</m:mi></m:math> where
+   
+<m:math>
+<m:reln><m:lt/>
+<m:mrow>
+<m:mi>P</m:mi>
+<m:mo>(</m:mo>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>X</m:ci>
+</m:apply>
+</m:mrow>
+<m:mrow>
+<m:mi>k</m:mi>
+<m:mo>)</m:mo>
+</m:mrow>
+</m:reln>
+<m:mo>=</m:mo>
+<m:mn>0.95</m:mn>
+</m:math>
+  </para><para id="element-196"><m:math>
+<m:mi>k</m:mi>
+<m:mo>=</m:mo>
+<m:mn>26.0</m:mn>
+</m:math> using <code> 
+invNorm</code><m:math>
+<m:mo>(</m:mo>
+<m:mn>.95</m:mn>
+<m:mo>,</m:mo>
+<m:mn>22</m:mn>
+<m:mo>,</m:mo>
+<m:mfrac>
+<m:mn>22</m:mn>
+<m:mrow>
+<m:msqrt>
+<m:mn>80</m:mn>
+</m:msqrt>
+</m:mrow>
+</m:mfrac>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:mn>26.0</m:mn>
+</m:math></para><para id="element-330"><media type="image/png" src="clt_useCLT6.png">
+<param name="alt" value="Normal distribution curve with value of k on x-axis. Vertical upward line extends from k to curve. Probability area from the beginning of the curve to point k is equal to 0.95."/>
+
+		<param name="print-width" value="3in"/>
+	</media>
+</para><para id="element-987">The 95th percentile for the <emphasis> sample average excess time used  </emphasis> is about 26.0 minutes for random samples of 80 customers who exceed their contractual allowed time. </para><para id="element-351">95% of such samples would have averages under 26 minutes; only 5% of such samples would have averages above 26 minutes.</para>
+</solution>
+</exercise>
+</example></section>   
+  </content>
+<glossary>
+
+ <definition id="average">
+    <term>Average</term>
+    <meaning>
+      A number that describes the central tendency of the data. There are a number of specialized averages, including the arithmetic mean, weighted mean, median, mode, and geometric mean.
+    </meaning>
+  </definition>
+
+<definition id="centlimit">
+    <term>Central Limit Theorem</term>
+    <meaning>
+     Given a random variable (RV) with known mean <m:math><m:mi>μ</m:mi></m:math> and known variance <m:math><m:mi>σ</m:mi></m:math>
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mrow/><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {} rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>, we are sampling with size n and we are interested in two new RV - sample mean, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>X</m:mi><m:mo stretchy="false">ˉ</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { bar  {X}}} {}</m:annotation></m:semantics></m:math>,and sample sum,<m:math><m:mi>Σ</m:mi></m:math> 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>X</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation></m:semantics></m:math>. If the size n of the sample is sufficiently large, then 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>X</m:mi><m:mo stretchy="false">ˉ</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { bar  {X}}} {}</m:annotation></m:semantics></m:math>∼ 
+
+<m:math>
+ <m:mi>N</m:mi>
+  <m:mfenced>
+    <m:mi>nμ</m:mi>
+    <m:mfrac>
+      <m:msup>
+        <m:mi>σ</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+      <m:mi>n</m:mi>
+    </m:mfrac>
+  </m:mfenced>
+</m:math>
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mrow/><m:mstyle fontsize="8pt"><m:mrow><m:mn/></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> </m:annotation></m:semantics></m:math> and 
+<m:math> <m:mi>Σ</m:mi><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>X</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation></m:semantics></m:math> ∼  
+<m:math><m:mi>N</m:mi>
+  <m:mfenced>
+    <m:mi>nμ</m:mi>
+    <m:mi>n</m:mi>
+    <m:msup>
+      <m:mi>σ</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mfenced></m:math>. In words, if the size n of the sample is sufficiently large, then the distribution of the sample means and the distribution of the sample sums will approximate a normal distribution regardless of the shape of the population. And even more, the mean of the sampling distribution will equal the population mean and mean of sampling sums will equal n times the population mean. The standard deviation of the distribution of the sample means, 
+<m:math> <m:mfrac>
+    <m:mi>σ</m:mi>
+    <m:msqrt>
+      <m:mi>n</m:mi>
+    </m:msqrt>
+  </m:mfrac></m:math>, is called standard error of the mean.
+    </meaning>
+  </definition>
+
+
+<definition id="expdist">
+    <term>Exponential Distribution</term>
+    <meaning>
+     Continuous random variable (RV) that appears when we are interested in intervals of time between some random events, for example, the length of time between emergency arrivals at a hospital. Notation: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>X</m:mi><m:mtext>~</m:mtext><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Exp</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>m</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X "~"  ital "Exp" \( m \) } {}</m:annotation></m:semantics></m:math>; the mean is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>μ</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>m</m:mi></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ= {  {1}  over  {m} } } {}</m:annotation></m:semantics></m:math>, and the variance is 
+<m:math> <m:msup>
+    <m:mi>σ</m:mi>
+    <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>=</m:mo>
+  <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:msup>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mfrac></m:math>, the probability density function is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:msup><m:mtext>me</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mx</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle></m:mrow><m:mi>,</m:mi><m:mtext/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) = ital "me" rSup { size 8{- ital "mx"} } ,"  "} {}</m:annotation></m:semantics></m:math>  <m:math><m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>≥</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow></m:math>and cumulative distribution is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>X</m:mi><m:mo stretchy="false">≤</m:mo><m:mi>x</m:mi></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mx</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P \( X &lt;= x \) =1-e rSup { size 8{- ital "mx"} } } {}</m:annotation></m:semantics></m:math>.
+    </meaning>
+  </definition>
+
+
+<definition id="mean">
+    <term>Mean</term>
+    <meaning>
+   A number to measure the central tendency (average), shortening from arithmetic mean. By definition, the mean for a sample (usually denoted by 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>X</m:mi><m:mo stretchy="false">ˉ</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { bar  {X}}} {}</m:annotation></m:semantics></m:math>) is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover accent="true"><m:mi>X</m:mi><m:mo stretchy="false">ˉ</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mfrac><m:mtext>Sum of all values in the sample</m:mtext><m:mtext>Number of values in the sample</m:mtext></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { bar  {X}}= {  {"Sum of all values in the sample"}  over  {"Number of values in the sample"} } } {}</m:annotation></m:semantics></m:math>, and the mean for a population (usually denoted by
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>m</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math>) is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mtext>Sum of all values in the population</m:mtext><m:mtext>Number of values in the population</m:mtext></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m= {  {"Sum of all values in the population"}  over  {"Number of values in the population"} } } {}</m:annotation></m:semantics></m:math>.
+    </meaning>
+  </definition>
+
+
+
+
+
+
+</glossary>  
+</document>
