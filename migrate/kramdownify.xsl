@@ -199,4 +199,16 @@
 <xsl:template match="x:em/@data-effect|x:strong/@data-effect"/>
 <xsl:template match="*[@data-type='solution']/@data-label"/>
 
+<xsl:template match="*[@data-type='newline' and not(@effect)]">
+  <br>
+    <xsl:apply-templates select="@*"/>
+  </br>
+</xsl:template>
+
+<xsl:template match="*[@data-type='newline' and not(@effect)]">
+  <hr>
+    <xsl:apply-templates select="@*"/>
+  </hr>
+</xsl:template>
+
 </xsl:stylesheet>
