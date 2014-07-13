@@ -211,4 +211,47 @@
   </hr>
 </xsl:template>
 
+
+
+<!-- Escape pipes and underscores because they have special meaning in kramdown -->
+<xsl:template name="string-replace">
+   <xsl:param name="text" />
+   <xsl:param name="pattern" />
+   <xsl:param name="replace-with" />
+   <xsl:choose>
+      <xsl:when test="contains($text, $pattern)">
+         <xsl:value-of select="substring-before($text, $pattern)" />
+         <xsl:value-of select="$replace-with" />
+         <xsl:call-template name="string-replace">
+            <xsl:with-param name="text" select="substring-after($text, $pattern)" />
+            <xsl:with-param name="pattern" select="$pattern" />
+            <xsl:with-param name="replace-with" select="$replace-with" />
+         </xsl:call-template>
+      </xsl:when>
+      <xsl:otherwise>
+         <xsl:value-of select="$text" />
+      </xsl:otherwise>
+   </xsl:choose>
+</xsl:template>
+
+<xsl:template match="text()">
+  <xsl:variable name="original" select="."/>
+  <xsl:variable name="pipes">
+    <xsl:call-template name="string-replace">
+      <xsl:with-param name="text" select="$original"/>
+      <xsl:with-param name="pattern">|</xsl:with-param>
+      <xsl:with-param name="replace-with">\|</xsl:with-param>
+    </xsl:call-template>
+  </xsl:variable>
+  <xsl:variable name="underscores">
+    <xsl:call-template name="string-replace">
+      <xsl:with-param name="text" select="$pipes"/>
+      <xsl:with-param name="pattern">_</xsl:with-param>
+      <xsl:with-param name="replace-with">\_</xsl:with-param>
+    </xsl:call-template>
+  </xsl:variable>
+  <xsl:value-of select="$underscores"/>
+</xsl:template>
+
+
 </xsl:stylesheet>
