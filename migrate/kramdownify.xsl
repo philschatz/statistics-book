@@ -250,7 +250,23 @@
       <xsl:with-param name="replace-with">\_</xsl:with-param>
     </xsl:call-template>
   </xsl:variable>
-  <xsl:value-of select="$underscores"/>
+  <!-- For liquid templates -->
+  <xsl:variable name="double-curly">
+    <xsl:call-template name="string-replace">
+      <xsl:with-param name="text" select="$underscores"/>
+      <xsl:with-param name="pattern">{{</xsl:with-param>
+      <xsl:with-param name="replace-with">{ {</xsl:with-param>
+    </xsl:call-template>
+  </xsl:variable>
+  <xsl:variable name="curly-percent">
+    <xsl:call-template name="string-replace">
+      <xsl:with-param name="text" select="$double-curly"/>
+      <xsl:with-param name="pattern">{%</xsl:with-param>
+      <xsl:with-param name="replace-with">{ %</xsl:with-param>
+    </xsl:call-template>
+  </xsl:variable>
+
+  <xsl:value-of select="$curly-percent"/>
 </xsl:template>
 
 
