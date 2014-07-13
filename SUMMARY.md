@@ -14,15 +14,18 @@ Introductory Statistics is intended for the one-semester introduction to statist
     2.  [Data, Sampling, and Variation in Data and Sampling](contents/m46885.md)
     3.  [Frequency, Frequency Tables, and Levels of Measurement](contents/m46882.md)
     4.  [Experimental Design and Ethics](contents/m46919.md)
+    5.  [Data Collection Experiment](contents/m50252.md)
+    6.  [Sampling Experiment](contents/m50243.md)
 
 3.  {: .chapter} [Descriptive Statistics](contents/m46925.md)
-    1.  [Measures of the Spread of the Data](contents/m46922.md)
-    2.  [Stem-and-Leaf Graphs (Stemplots), Line Graphs, and Bar Graphs](contents/m46934.md)
-    3.  [Histograms, Frequency Polygons, and Time Series Graphs](contents/m46924.md)
+    1.  [Stem-and-Leaf Graphs (Stemplots), Line Graphs, and Bar Graphs](contents/m46934.md)
+    2.  [Histograms, Frequency Polygons, and Time Series Graphs](contents/m46924.md)
+    3.  [Measures of the Location of the Data](contents/m46930.md)
     4.  [Box Plots](contents/m46920.md)
-    5.  [Measures of the Location of the Data](contents/m46930.md)
-    6.  [Measures of the Center of the Data](contents/m46928.md)
-    7.  [Skewness and the Mean, Median, and Mode](contents/m46931.md)
+    5.  [Measures of the Center of the Data](contents/m46928.md)
+    6.  [Skewness and the Mean, Median, and Mode](contents/m46931.md)
+    7.  [Measures of the Spread of the Data](contents/m46922.md)
+    8.  [Descriptive Statistics](contents/m50253.md)
 
 4.  {: .chapter} [Probability Topics](contents/m46938.md)
     1.  [Terminology](contents/m46942.md)
@@ -30,6 +33,7 @@ Introductory Statistics is intended for the one-semester introduction to statist
     3.  [Two Basic Rules of Probability](contents/m46947.md)
     4.  [Contingency Tables](contents/m46935.md)
     5.  [Tree and Venn Diagrams](contents/m46944.md)
+    6.  [Probability Topics](contents/m50256.md)
 
 5.  {: .chapter} [Discrete Random Variables](contents/m46955.md)
     1.  [Probability Distribution Function (PDF) for a Discrete Random Variable](contents/m46963.md)
@@ -38,46 +42,60 @@ Introductory Statistics is intended for the one-semester introduction to statist
     4.  [Geometric Distribution](contents/m46953.md)
     5.  [Hypergeometric Distribution](contents/m46964.md)
     6.  [Poisson Distribution](contents/m46961.md)
+    7.  [Discrete Distribution (Playing Card Experiment)](contents/m50257.md)
+    8.  [Discrete Distribution (Lucky Dice Experiment)](contents/m50259.md)
 
 6.  {: .chapter} [Continuous Random Variables](contents/m46967.md)
     1.  [Continuous Probability Functions](contents/m46965.md)
     2.  [The Uniform Distribution](contents/m46972.md)
     3.  [The Exponential Distribution](contents/m46969.md)
+    4.  [Continuous Distribution](contents/m50260.md)
 
 7.  {: .chapter} [The Normal Distribution](contents/m46977.md)
     1.  [The Standard Normal Distribution](contents/m46980.md)
     2.  [Using the Normal Distribution](contents/m46973.md)
+    3.  [Normal Distribution (Lap Times)](contents/m50261.md)
+    4.  [Normal Distribution (Pinkie Length)](contents/m50264.md)
 
 8.  {: .chapter} [The Central Limit Theorem](contents/m46983.md)
     1.  [The Central Limit Theorem for Sample Means (Averages)](contents/m46994.md)
     2.  [The Central Limit Theorem for Sums](contents/m46997.md)
     3.  [Using the Central Limit Theorem](contents/m46992.md)
+    4.  [Central Limit Theorem (Pocket Change)](contents/m50268.md)
+    5.  [Central Limit Theorem (Cookie Recipes)](contents/m50269.md)
 
 9.  {: .chapter} [Confidence Intervals](contents/m47008.md)
-    1.  [Confidence Interval, Single Population Mean, Population Standard Deviation Known, Normal](contents/m47002.md)
-    2.  [Confidence Interval, Single Population Mean, Standard Deviation Unknown, Student\'s t-distribution](contents/m47001.md)
-    3.  [Confidence Interval for a Population Proportion](contents/m46999.md)
+    1.  [A Single Population Mean using the Normal Distribution](contents/m47002.md)
+    2.  [A Single Population Mean using the Student t Distribution](contents/m47001.md)
+    3.  [A Population Proportion](contents/m46999.md)
+    4.  [Confidence Interval (Home Costs)](contents/m50270.md)
+    5.  [Confidence Interval (Place of Birth)](contents/m50272.md)
+    6.  [Confidence Interval (Women\'s Heights)](contents/m50274.md)
 
-10. {: .chapter} [Hypothesis Testing: Single Mean and Single Proportion](contents/m47041.md)
+10. {: .chapter} [Hypothesis Testing with One Sample](contents/m47041.md)
     1.  [Null and Alternative Hypotheses](contents/m47033.md)
     2.  [Outcomes and the Type I and Type II Errors](contents/m47029.md)
     3.  [Distribution Needed for Hypothesis Testing](contents/m47036.md)
     4.  [Rare Events, the Sample, Decision and Conclusion](contents/m47044.md)
     5.  [Additional Information and Full Hypothesis Test Examples](contents/m47019.md)
+    6.  [Hypothesis Testing of a Single Mean and Single Proportion](contents/m50277.md)
 
-11. {: .chapter} [Hypothesis Testing: Two Means, Paired Data, Two Proportions](contents/m47057.md)
-    1.  [Comparing Two Independent Population Means with Unknown Population Standard Deviations](contents/m47050.md)
-    2.  [Comparing Two Independent Population Means with Known Population Standard Deviations](contents/m47061.md)
+11. {: .chapter} [Hypothesis Testing with Two Samples](contents/m47057.md)
+    1.  [Two Population Means with Unknown Standard Deviations](contents/m47050.md)
+    2.  [Two Population Means with Known Standard Deviations](contents/m47061.md)
     3.  [Comparing Two Independent Population Proportions](contents/m47060.md)
     4.  [Matched or Paired Samples](contents/m47045.md)
+    5.  [Hypothesis Testing for Two Means and Two Proportions](contents/m50278.md)
 
 12. {: .chapter} [The Chi-Square Distribution](contents/m47088.md)
     1.  [Facts About the Chi-Square Distribution](contents/m47062.md)
     2.  [Goodness-of-Fit Test](contents/m47064.md)
     3.  [Test of Independence](contents/m47077.md)
     4.  [Test for Homogeneity](contents/m47091.md)
-    5.  [Comparison Summary of the Chi-Square Tests Goodness-of-Fit, Independence and Homogeneity](contents/m47082.md)
+    5.  [Comparison of the Chi-Square Tests](contents/m47082.md)
     6.  [Test of a Single Variance](contents/m47085.md)
+    7.  [Lab 1: Chi-Square Goodness-of-Fit](contents/m50279.md)
+    8.  [Lab 2: Chi-Square Test of Independence](contents/m50280.md)
 
 13. {: .chapter} [Linear Regression and Correlation](contents/m47098.md)
     1.  [Linear Equations](contents/m47100.md)
@@ -86,56 +104,23 @@ Introductory Statistics is intended for the one-semester introduction to statist
     4.  [Testing the Significance of the Correlation Coefficient](contents/m47111.md)
     5.  [Prediction](contents/m47105.md)
     6.  [Outliers](contents/m47107.md)
+    7.  [Regression (Distance from School)](contents/m50283.md)
+    8.  [Regression (Textbook Cost)](contents/m50285.md)
+    9.  [Regression (Fuel Efficiency)](contents/m50287.md)
 
 14. {: .chapter} [F Distribution and One-Way ANOVA](contents/m47121.md)
     1.  [One-Way ANOVA](contents/m47124.md)
     2.  [The F Distribution and the F-Ratio](contents/m47128.md)
     3.  [Facts About the F Distribution](contents/m47119.md)
     4.  [Test of Two Variances](contents/m47125.md)
+    5.  [Lab: One-Way ANOVA](contents/m50288.md)
 
-15. {: .chapter} <span class="title">Appendix A</span>
-    1.  [Review Exercises](contents/m47864.md)
-
-16. {: .chapter} <span class="title">Appendix B</span>
-    1.  [Practice Test 1](contents/m47865.md)
-    2.  [Practice Test 2](contents/m47867.md)
-    3.  [Practice Test 3](contents/m47868.md)
-    4.  [Practice Test 4](contents/m47870.md)
-    5.  [Practice Final Exam 1](contents/m47871.md)
-    6.  [Practice Final Exam 2](contents/m47872.md)
-
-17. {: .chapter} <span class="title">Appendix C</span>
-    1.  [Data Sets](contents/m47873.md)
-
-18. {: .chapter} <span class="title">Appendix D</span>
-    1.  [Group Project: Univariate Data](contents/m47874.md)
-    2.  [Group Project: Continuous Distributions and Central Limit Theorem](contents/m47877.md)
-    3.  [Partner Project: Hypothesis Testing-Article](contents/m47878.md)
-    4.  [Group Project: Bivariate Data, Linear Regression, and Univariate Data](contents/m47881.md)
-
-19. {: .chapter} <span class="title">Appendix E</span>
-    1.  [Hypothesis Testing with One Sample](contents/m47882.md)
-    2.  [Hypothesis Testing with Two Samples](contents/m47887.md)
-    3.  [The Chi-Square Distribution](contents/m47885.md)
-    4.  [F Distribution and One-Way ANOVA](contents/m47889.md)
-
-20. {: .chapter} <span class="title">Appendix F</span>
-    1.  [English Phrases Written Mathematically](contents/m47891.md)
-    2.  [Symbols and Their Meanings](contents/m47898.md)
-    3.  [Formulas](contents/m47894.md)
-
-21. {: .chapter} <span class="title">Appendix G</span>
-    1.  [Notes for the TI-83, 83+, 84, 84+ Calculators](contents/m47896.md)
-
-22. {: .chapter} <span class="title">Appendix H</span>
-    1.  [Review Exercises](contents/m47902.md)
-    2.  [Practice Test 1](contents/m47901.md)
-    3.  [Practice Test 2](contents/m47903.md)
-    4.  [Practice Test 3](contents/m47904.md)
-    5.  [Practice Test 4](contents/m47907.md)
-    6.  [Practice Final Exam 1](contents/m47908.md)
-    7.  [Practice Final Exam 2](contents/m47909.md)
-
-23. {: .chapter} <span class="title">Appendix I</span>
-    1.  [Tables](contents/m47129.md)
+15. {: .appendix} [Appendix A: Review Exercises (Ch 3-13)](contents/m47864.md)
+16. {: .appendix} [Appendix B: Practice Tests (1-4) and Final Exams](contents/m47865.md)
+17. {: .appendix} [Appendix C: Data Sets](contents/m47873.md)
+18. {: .appendix} [Appendix D: Group and Partner Projects](contents/m47874.md)
+19. {: .appendix} [Appendix E: Solution Sheets](contents/m47882.md)
+20. {: .appendix} [Appendix F: Mathematical Phrases, Symbols, and Formulas](contents/m47891.md)
+21. {: .appendix} [Appendix G: Notes for the TI-83, 83+, 84, 84+ Calculators](contents/m47896.md)
+22. {: .appendix} [Appendix H: Tables](contents/m47875.md)
 
