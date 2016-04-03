@@ -1,16 +1,24 @@
+
 # Dependencies
 markdown:         kramdown
 
+# Permalinks
+#permalink:        pretty
+
 # Setup
+title:            'Statistics'
+tagline:          'from http://cnx.org/contents/30189442-6998-4686-ac05-ed152b91b9de@17.46 (CC-BY)'
+url:              https://github.com/philschatz/statistics-book
+origin:           http://cnx.org/contents/30189442-6998-4686-ac05-ed152b91b9de@17.46
+
 author:
-  name:           "Openstax"
-  url:            http://cnx.org
+  name:           'Openstax'
+  url:            https://github.com/openstax
 
-
-title:            "Openstax Statistics"
+paginate:         5
 
 # Custom vars
-version:          16.2
-origin:           http://cnx.org/contents/30189442-6998-4686-ac05-ed152b91b9de@16.2
+version:          17.46
 
 bookviewer:       http://philschatz.com/book-viewer
+
