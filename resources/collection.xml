@@ -17,15 +17,15 @@
   <!-- WARNING! The 'metadata' section is read only. Do not edit below.
        Changes to the metadata section in the source will not be saved. -->
 
-  <md:repository>http://cnx.org/content</md:repository>
-  <md:content-url>http://cnx.org/content/col11562/1.17</md:content-url>
+  <md:repository>http://legacy.cnx.org/content</md:repository>
+  <md:content-url>http://legacy.cnx.org/content/col11562/1.18</md:content-url>
   <md:content-id>col11562</md:content-id>
   <md:title>Introductory Statistics</md:title>
   
   
-  <md:version>1.17</md:version>
+  <md:version>1.18</md:version>
   <md:created>2013/07/19 15:30:26.443 GMT-5</md:created>
-  <md:revised>2014/05/09 11:27:53.493 GMT-5</md:revised>
+  <md:revised>2016/05/06 14:35:25.657 GMT-5</md:revised>
 
   <md:actors>
     
@@ -41,7 +41,7 @@
     <md:person userid="cnxstats">
       <md:firstname>OpenStax</md:firstname>
       <md:surname>College</md:surname>
-      <md:fullname>OpenStax College</md:fullname>
+      <md:fullname>OpenStax Statistics</md:fullname>
       <md:email>info@openstaxcollege.org</md:email>
     </md:person>
     
@@ -171,8 +171,8 @@
   <col:content>
     
       <col:module document="m47830" version="latest"
-                  repository="http://cnx.org/content"
-                  cnxorg:version-at-this-collection-version="1.4">
+                  repository="http://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.5">
         <md:title>Preface</md:title>
         
         
@@ -194,7 +194,7 @@
           
     
       <col:module document="m46913" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.11">
         <md:title>Introduction</md:title>
         
@@ -206,7 +206,7 @@
     
     
       <col:module document="m46909" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.6">
         <md:title>Definitions of Statistics, Probability, and Key Terms</md:title>
         
@@ -218,7 +218,7 @@
     
     
       <col:module document="m46885" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.12">
         <md:title>Data, Sampling, and Variation in Data and Sampling</md:title>
         
@@ -230,8 +230,8 @@
     
     
       <col:module document="m46882" version="latest"
-                  repository="http://cnx.org/content"
-                  cnxorg:version-at-this-collection-version="1.9">
+                  repository="http://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.10">
         <md:title>Frequency, Frequency Tables, and Levels of Measurement</md:title>
         
         
@@ -242,7 +242,7 @@
     
     
       <col:module document="m46919" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.8">
         <md:title>Experimental Design and Ethics</md:title>
         
@@ -254,8 +254,8 @@
     
     
       <col:module document="m50252" version="latest"
-                  repository="http://cnx.org/content"
-                  cnxorg:version-at-this-collection-version="1.1">
+                  repository="http://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.3">
         <md:title>Data Collection Experiment</md:title>
         
         
@@ -266,7 +266,7 @@
     
     
       <col:module document="m50243" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.1">
         <md:title>Sampling Experiment</md:title>
         
@@ -292,7 +292,7 @@
           
     
       <col:module document="m46925" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.5">
         <md:title>Introduction</md:title>
         
@@ -304,7 +304,7 @@
     
     
       <col:module document="m46934" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.5">
         <md:title>Stem-and-Leaf Graphs (Stemplots), Line Graphs, and Bar Graphs</md:title>
         
@@ -316,8 +316,8 @@
     
     
       <col:module document="m46924" version="latest"
-                  repository="http://cnx.org/content"
-                  cnxorg:version-at-this-collection-version="1.5">
+                  repository="http://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.6">
         <md:title>Histograms, Frequency Polygons, and Time Series Graphs</md:title>
         
         
@@ -328,8 +328,8 @@
     
     
       <col:module document="m46930" version="latest"
-                  repository="http://cnx.org/content"
-                  cnxorg:version-at-this-collection-version="1.3">
+                  repository="http://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.6">
         <md:title>Measures of the Location of the Data</md:title>
         
         
@@ -340,8 +340,8 @@
     
     
       <col:module document="m46920" version="latest"
-                  repository="http://cnx.org/content"
-                  cnxorg:version-at-this-collection-version="1.4">
+                  repository="http://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.5">
         <md:title>Box Plots</md:title>
         
         
@@ -352,8 +352,8 @@
     
     
       <col:module document="m46928" version="latest"
-                  repository="http://cnx.org/content"
-                  cnxorg:version-at-this-collection-version="1.4">
+                  repository="http://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.6">
         <md:title>Measures of the Center of the Data</md:title>
         
         
@@ -364,7 +364,7 @@
     
     
       <col:module document="m46931" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.3">
         <md:title>Skewness and the Mean, Median, and Mode</md:title>
         
@@ -376,7 +376,7 @@
     
     
       <col:module document="m46922" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.10">
         <md:title>Measures of the Spread of the Data</md:title>
         
@@ -388,8 +388,8 @@
     
     
       <col:module document="m50253" version="latest"
-                  repository="http://cnx.org/content"
-                  cnxorg:version-at-this-collection-version="1.1">
+                  repository="http://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.2">
         <md:title>Descriptive Statistics</md:title>
         
         
@@ -414,7 +414,7 @@
           
     
       <col:module document="m46938" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.7">
         <md:title>Introduction</md:title>
         
@@ -426,7 +426,7 @@
     
     
       <col:module document="m46942" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.5">
         <md:title>Terminology</md:title>
         
@@ -438,7 +438,7 @@
     
     
       <col:module document="m46948" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.5">
         <md:title>Independent and Mutually Exclusive Events</md:title>
         
@@ -450,7 +450,7 @@
     
     
       <col:module document="m46947" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.4">
         <md:title>Two Basic Rules of Probability</md:title>
         
@@ -462,7 +462,7 @@
     
     
       <col:module document="m46935" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.8">
         <md:title>Contingency Tables</md:title>
         
@@ -474,7 +474,7 @@
     
     
       <col:module document="m46944" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.6">
         <md:title>Tree and Venn Diagrams</md:title>
         
@@ -486,7 +486,7 @@
     
     
       <col:module document="m50256" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.1">
         <md:title>Probability Topics</md:title>
         
@@ -512,7 +512,7 @@
           
     
       <col:module document="m46955" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.5">
         <md:title>Introduction</md:title>
         
@@ -524,7 +524,7 @@
     
     
       <col:module document="m46963" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.4">
         <md:title>Probability Distribution Function (PDF) for a Discrete Random Variable</md:title>
         
@@ -536,8 +536,8 @@
     
     
       <col:module document="m46959" version="latest"
-                  repository="http://cnx.org/content"
-                  cnxorg:version-at-this-collection-version="1.5">
+                  repository="http://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.7">
         <md:title>Mean or Expected Value and Standard Deviation</md:title>
         
         
@@ -548,8 +548,8 @@
     
     
       <col:module document="m46950" version="latest"
-                  repository="http://cnx.org/content"
-                  cnxorg:version-at-this-collection-version="1.4">
+                  repository="http://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.6">
         <md:title>Binomial Distribution</md:title>
         
         
@@ -560,7 +560,7 @@
     
     
       <col:module document="m46953" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.5">
         <md:title>Geometric Distribution</md:title>
         
@@ -572,7 +572,7 @@
     
     
       <col:module document="m46964" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.6">
         <md:title>Hypergeometric Distribution</md:title>
         
@@ -584,7 +584,7 @@
     
     
       <col:module document="m46961" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.5">
         <md:title>Poisson Distribution</md:title>
         
@@ -596,8 +596,8 @@
     
     
       <col:module document="m50257" version="latest"
-                  repository="http://cnx.org/content"
-                  cnxorg:version-at-this-collection-version="1.1">
+                  repository="http://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.2">
         <md:title>Discrete Distribution (Playing Card Experiment)</md:title>
         
         
@@ -608,8 +608,8 @@
     
     
       <col:module document="m50259" version="latest"
-                  repository="http://cnx.org/content"
-                  cnxorg:version-at-this-collection-version="1.1">
+                  repository="http://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.2">
         <md:title>Discrete Distribution (Lucky Dice Experiment)</md:title>
         
         
@@ -634,7 +634,7 @@
           
     
       <col:module document="m46967" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.5">
         <md:title>Introduction</md:title>
         
@@ -646,7 +646,7 @@
     
     
       <col:module document="m46965" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.4">
         <md:title>Continuous Probability Functions</md:title>
         
@@ -658,7 +658,7 @@
     
     
       <col:module document="m46972" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.4">
         <md:title>The Uniform Distribution</md:title>
         
@@ -670,7 +670,7 @@
     
     
       <col:module document="m46969" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.6">
         <md:title>The Exponential Distribution</md:title>
         
@@ -682,8 +682,8 @@
     
     
       <col:module document="m50260" version="latest"
-                  repository="http://cnx.org/content"
-                  cnxorg:version-at-this-collection-version="1.1">
+                  repository="http://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.2">
         <md:title>Continuous Distribution</md:title>
         
         
@@ -708,7 +708,7 @@
           
     
       <col:module document="m46977" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.4">
         <md:title>Introduction</md:title>
         
@@ -720,7 +720,7 @@
     
     
       <col:module document="m46980" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.4">
         <md:title>The Standard Normal Distribution</md:title>
         
@@ -732,7 +732,7 @@
     
     
       <col:module document="m46973" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.8">
         <md:title>Using the Normal Distribution</md:title>
         
@@ -744,8 +744,8 @@
     
     
       <col:module document="m50261" version="latest"
-                  repository="http://cnx.org/content"
-                  cnxorg:version-at-this-collection-version="1.1">
+                  repository="http://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.2">
         <md:title>Normal Distribution (Lap Times)</md:title>
         
         
@@ -756,8 +756,8 @@
     
     
       <col:module document="m50264" version="latest"
-                  repository="http://cnx.org/content"
-                  cnxorg:version-at-this-collection-version="1.1">
+                  repository="http://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.2">
         <md:title>Normal Distribution (Pinkie Length)</md:title>
         
         
@@ -782,7 +782,7 @@
           
     
       <col:module document="m46983" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.4">
         <md:title>Introduction</md:title>
         
@@ -794,8 +794,8 @@
     
     
       <col:module document="m46994" version="latest"
-                  repository="http://cnx.org/content"
-                  cnxorg:version-at-this-collection-version="1.4">
+                  repository="http://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.7">
         <md:title>The Central Limit Theorem for Sample Means (Averages)</md:title>
         
         
@@ -806,7 +806,7 @@
     
     
       <col:module document="m46997" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.5">
         <md:title>The Central Limit Theorem for Sums</md:title>
         
@@ -818,7 +818,7 @@
     
     
       <col:module document="m46992" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.6">
         <md:title>Using the Central Limit Theorem</md:title>
         
@@ -830,8 +830,8 @@
     
     
       <col:module document="m50268" version="latest"
-                  repository="http://cnx.org/content"
-                  cnxorg:version-at-this-collection-version="1.1">
+                  repository="http://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.2">
         <md:title>Central Limit Theorem (Pocket Change)</md:title>
         
         
@@ -842,8 +842,8 @@
     
     
       <col:module document="m50269" version="latest"
-                  repository="http://cnx.org/content"
-                  cnxorg:version-at-this-collection-version="1.1">
+                  repository="http://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.2">
         <md:title>Central Limit Theorem (Cookie Recipes)</md:title>
         
         
@@ -868,8 +868,8 @@
           
     
       <col:module document="m47008" version="latest"
-                  repository="http://cnx.org/content"
-                  cnxorg:version-at-this-collection-version="1.4">
+                  repository="http://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.5">
         <md:title>Introduction</md:title>
         
         
@@ -880,7 +880,7 @@
     
     
       <col:module document="m47002" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.9">
         <md:title>A Single Population Mean using the Normal Distribution</md:title>
         
@@ -892,8 +892,8 @@
     
     
       <col:module document="m47001" version="latest"
-                  repository="http://cnx.org/content"
-                  cnxorg:version-at-this-collection-version="1.6">
+                  repository="http://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.7">
         <md:title>A Single Population Mean using the Student t Distribution</md:title>
         
         
@@ -904,7 +904,7 @@
     
     
       <col:module document="m46999" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.7">
         <md:title>A Population Proportion</md:title>
         
@@ -916,8 +916,8 @@
     
     
       <col:module document="m50270" version="latest"
-                  repository="http://cnx.org/content"
-                  cnxorg:version-at-this-collection-version="1.1">
+                  repository="http://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.2">
         <md:title>Confidence Interval (Home Costs)</md:title>
         
         
@@ -928,8 +928,8 @@
     
     
       <col:module document="m50272" version="latest"
-                  repository="http://cnx.org/content"
-                  cnxorg:version-at-this-collection-version="1.1">
+                  repository="http://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.2">
         <md:title>Confidence Interval (Place of Birth)</md:title>
         
         
@@ -940,7 +940,7 @@
     
     
       <col:module document="m50274" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.1">
         <md:title>Confidence Interval (Women's Heights)</md:title>
         
@@ -966,7 +966,7 @@
           
     
       <col:module document="m47041" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.6">
         <md:title>Introduction</md:title>
         
@@ -978,7 +978,7 @@
     
     
       <col:module document="m47033" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.3">
         <md:title>Null and Alternative Hypotheses</md:title>
         
@@ -990,7 +990,7 @@
     
     
       <col:module document="m47029" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.3">
         <md:title>Outcomes and the Type I and Type II Errors</md:title>
         
@@ -1002,7 +1002,7 @@
     
     
       <col:module document="m47036" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.3">
         <md:title>Distribution Needed for Hypothesis Testing</md:title>
         
@@ -1014,8 +1014,8 @@
     
     
       <col:module document="m47044" version="latest"
-                  repository="http://cnx.org/content"
-                  cnxorg:version-at-this-collection-version="1.3">
+                  repository="http://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.4">
         <md:title>Rare Events, the Sample, Decision and Conclusion</md:title>
         
         
@@ -1026,8 +1026,8 @@
     
     
       <col:module document="m47019" version="latest"
-                  repository="http://cnx.org/content"
-                  cnxorg:version-at-this-collection-version="1.6">
+                  repository="http://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.8">
         <md:title>Additional Information and Full Hypothesis Test Examples</md:title>
         
         
@@ -1038,8 +1038,8 @@
     
     
       <col:module document="m50277" version="latest"
-                  repository="http://cnx.org/content"
-                  cnxorg:version-at-this-collection-version="1.1">
+                  repository="http://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.2">
         <md:title>Hypothesis Testing of a Single Mean and Single Proportion</md:title>
         
         
@@ -1064,7 +1064,7 @@
           
     
       <col:module document="m47057" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.5">
         <md:title>Introduction</md:title>
         
@@ -1076,8 +1076,8 @@
     
     
       <col:module document="m47050" version="latest"
-                  repository="http://cnx.org/content"
-                  cnxorg:version-at-this-collection-version="1.7">
+                  repository="http://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.8">
         <md:title>Two Population Means with Unknown Standard Deviations</md:title>
         
         
@@ -1088,7 +1088,7 @@
     
     
       <col:module document="m47061" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.5">
         <md:title>Two Population Means with Known Standard Deviations</md:title>
         
@@ -1100,8 +1100,8 @@
     
     
       <col:module document="m47060" version="latest"
-                  repository="http://cnx.org/content"
-                  cnxorg:version-at-this-collection-version="1.6">
+                  repository="http://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.7">
         <md:title>Comparing Two Independent Population Proportions</md:title>
         
         
@@ -1112,7 +1112,7 @@
     
     
       <col:module document="m47045" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.8">
         <md:title>Matched or Paired Samples</md:title>
         
@@ -1124,8 +1124,8 @@
     
     
       <col:module document="m50278" version="latest"
-                  repository="http://cnx.org/content"
-                  cnxorg:version-at-this-collection-version="1.1">
+                  repository="http://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.2">
         <md:title>Hypothesis Testing for Two Means and Two Proportions</md:title>
         
         
@@ -1150,7 +1150,7 @@
           
     
       <col:module document="m47088" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.7">
         <md:title>Introduction</md:title>
         
@@ -1162,7 +1162,7 @@
     
     
       <col:module document="m47062" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.5">
         <md:title>Facts About the Chi-Square Distribution</md:title>
         
@@ -1174,7 +1174,7 @@
     
     
       <col:module document="m47064" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.5">
         <md:title>Goodness-of-Fit Test</md:title>
         
@@ -1186,7 +1186,7 @@
     
     
       <col:module document="m47077" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.6">
         <md:title>Test of Independence</md:title>
         
@@ -1198,7 +1198,7 @@
     
     
       <col:module document="m47091" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.5">
         <md:title>Test for Homogeneity</md:title>
         
@@ -1210,7 +1210,7 @@
     
     
       <col:module document="m47082" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.7">
         <md:title>Comparison of the Chi-Square Tests</md:title>
         
@@ -1222,7 +1222,7 @@
     
     
       <col:module document="m47085" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.6">
         <md:title>Test of a Single Variance</md:title>
         
@@ -1234,8 +1234,8 @@
     
     
       <col:module document="m50279" version="latest"
-                  repository="http://cnx.org/content"
-                  cnxorg:version-at-this-collection-version="1.1">
+                  repository="http://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.2">
         <md:title>Lab 1: Chi-Square Goodness-of-Fit</md:title>
         
         
@@ -1246,8 +1246,8 @@
     
     
       <col:module document="m50280" version="latest"
-                  repository="http://cnx.org/content"
-                  cnxorg:version-at-this-collection-version="1.1">
+                  repository="http://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.2">
         <md:title>Lab 2: Chi-Square Test of Independence</md:title>
         
         
@@ -1272,7 +1272,7 @@
           
     
       <col:module document="m47098" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.4">
         <md:title>Introduction</md:title>
         
@@ -1284,7 +1284,7 @@
     
     
       <col:module document="m47100" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.2">
         <md:title>Linear Equations</md:title>
         
@@ -1296,7 +1296,7 @@
     
     
       <col:module document="m47109" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.2">
         <md:title>Scatter Plots</md:title>
         
@@ -1308,7 +1308,7 @@
     
     
       <col:module document="m47117" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.3">
         <md:title>The Regression Equation</md:title>
         
@@ -1320,7 +1320,7 @@
     
     
       <col:module document="m47111" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.3">
         <md:title>Testing the Significance of the Correlation Coefficient</md:title>
         
@@ -1332,7 +1332,7 @@
     
     
       <col:module document="m47105" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.3">
         <md:title>Prediction</md:title>
         
@@ -1344,8 +1344,8 @@
     
     
       <col:module document="m47107" version="latest"
-                  repository="http://cnx.org/content"
-                  cnxorg:version-at-this-collection-version="1.7">
+                  repository="http://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.8">
         <md:title>Outliers</md:title>
         
         
@@ -1356,8 +1356,8 @@
     
     
       <col:module document="m50283" version="latest"
-                  repository="http://cnx.org/content"
-                  cnxorg:version-at-this-collection-version="1.1">
+                  repository="http://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.2">
         <md:title>Regression (Distance from School)</md:title>
         
         
@@ -1368,8 +1368,8 @@
     
     
       <col:module document="m50285" version="latest"
-                  repository="http://cnx.org/content"
-                  cnxorg:version-at-this-collection-version="1.1">
+                  repository="http://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.2">
         <md:title>Regression (Textbook Cost)</md:title>
         
         
@@ -1380,8 +1380,8 @@
     
     
       <col:module document="m50287" version="latest"
-                  repository="http://cnx.org/content"
-                  cnxorg:version-at-this-collection-version="1.1">
+                  repository="http://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.2">
         <md:title>Regression (Fuel Efficiency)</md:title>
         
         
@@ -1406,7 +1406,7 @@
           
     
       <col:module document="m47121" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.2">
         <md:title>Introduction</md:title>
         
@@ -1418,7 +1418,7 @@
     
     
       <col:module document="m47124" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.2">
         <md:title>One-Way ANOVA</md:title>
         
@@ -1430,7 +1430,7 @@
     
     
       <col:module document="m47128" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.5">
         <md:title>The F Distribution and the F-Ratio</md:title>
         
@@ -1442,7 +1442,7 @@
     
     
       <col:module document="m47119" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.4">
         <md:title>Facts About the F Distribution</md:title>
         
@@ -1454,7 +1454,7 @@
     
     
       <col:module document="m47125" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.5">
         <md:title>Test of Two Variances</md:title>
         
@@ -1466,7 +1466,7 @@
     
     
       <col:module document="m50288" version="latest"
-                  repository="http://cnx.org/content"
+                  repository="http://legacy.cnx.org/content"
                   cnxorg:version-at-this-collection-version="1.1">
         <md:title>Lab: One-Way ANOVA</md:title>
         
@@ -1481,9 +1481,9 @@
     
     
       <col:module document="m47864" version="latest"
-                  repository="http://cnx.org/content"
-                  cnxorg:version-at-this-collection-version="1.10">
-        <md:title>Appendix A: Review Exercises (Ch 3-13)</md:title>
+                  repository="http://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.12">
+        <md:title>Review Exercises (Ch 3-13)</md:title>
         
         
         
@@ -1493,9 +1493,9 @@
     
     
       <col:module document="m47865" version="latest"
-                  repository="http://cnx.org/content"
-                  cnxorg:version-at-this-collection-version="1.7">
-        <md:title>Appendix B: Practice Tests (1-4) and Final Exams</md:title>
+                  repository="http://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.9">
+        <md:title>Practice Tests (1-4) and Final Exams</md:title>
         
         
         
@@ -1505,9 +1505,9 @@
     
     
       <col:module document="m47873" version="latest"
-                  repository="http://cnx.org/content"
-                  cnxorg:version-at-this-collection-version="1.3">
-        <md:title>Appendix C: Data Sets</md:title>
+                  repository="http://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.4">
+        <md:title>Data Sets</md:title>
         
         
         
@@ -1517,9 +1517,9 @@
     
     
       <col:module document="m47874" version="latest"
-                  repository="http://cnx.org/content"
-                  cnxorg:version-at-this-collection-version="1.4">
-        <md:title>Appendix D: Group and Partner Projects</md:title>
+                  repository="http://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.5">
+        <md:title>Group and Partner Projects</md:title>
         
         
         
@@ -1529,9 +1529,9 @@
     
     
       <col:module document="m47882" version="latest"
-                  repository="http://cnx.org/content"
-                  cnxorg:version-at-this-collection-version="1.5">
-        <md:title>Appendix E: Solution Sheets</md:title>
+                  repository="http://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.6">
+        <md:title>Solution Sheets</md:title>
         
         
         
@@ -1541,9 +1541,9 @@
     
     
       <col:module document="m47891" version="latest"
-                  repository="http://cnx.org/content"
-                  cnxorg:version-at-this-collection-version="1.4">
-        <md:title>Appendix F: Mathematical Phrases, Symbols, and Formulas</md:title>
+                  repository="http://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.5">
+        <md:title>Mathematical Phrases, Symbols, and Formulas</md:title>
         
         
         
@@ -1553,9 +1553,9 @@
     
     
       <col:module document="m47896" version="latest"
-                  repository="http://cnx.org/content"
-                  cnxorg:version-at-this-collection-version="1.4">
-        <md:title>Appendix G: Notes for the TI-83, 83+, 84, 84+ Calculators</md:title>
+                  repository="http://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.5">
+        <md:title>Notes for the TI-83, 83+, 84, 84+ Calculators</md:title>
         
         
         
@@ -1565,9 +1565,9 @@
     
     
       <col:module document="m47875" version="latest"
-                  repository="http://cnx.org/content"
-                  cnxorg:version-at-this-collection-version="1.7">
-        <md:title>Appendix H: Tables</md:title>
+                  repository="http://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.8">
+        <md:title>Tables</md:title>
         
         
         
