@@ -7,9 +7,9 @@ markdown:         kramdown
 
 # Setup
 title:            'Statistics'
-tagline:          'from http://cnx.org/contents/30189442-6998-4686-ac05-ed152b91b9de@18.114 (CC-BY)'
+tagline:          'from http://cnx.org/contents/30189442-6998-4686-ac05-ed152b91b9de@ (CC-BY)'
 url:              https://github.com/philschatz/statistics-book
-origin:           http://cnx.org/contents/30189442-6998-4686-ac05-ed152b91b9de@18.114
+origin:           http://cnx.org/contents/30189442-6998-4686-ac05-ed152b91b9de@
 
 author:
   name:           'Openstax'
@@ -18,7 +18,7 @@ author:
 paginate:         5
 
 # Custom vars
-version:          18.114
+version:          
 
 bookviewer:       http://philschatz.com/book-viewer
 
