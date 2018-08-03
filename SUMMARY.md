@@ -4,9 +4,7 @@ layout: page
 ---
 
 
-<div data-type="abstract">
-Introductory Statistics follows scope and sequence requirements of a one-semester introduction to statistics course and is geared toward students majoring in fields other than math or engineering. The text assumes some knowledge of intermediate algebra and focuses on statistics application over theory. Introductory Statistics includes innovative practical applications that make the text relevant and accessible, as well as collaborative exercises, technology integration problems, and statistics labs.
-</div>
+<div data-type="abstract"></div>
 
 1.  {: .preface} [Preface](contents/m47830.md)
 2.  {: .chapter} [Sampling and Data](contents/m46913.md)
